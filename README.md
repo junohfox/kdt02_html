@@ -1,6 +1,7 @@
 # k-digital 2기
-## html
+## Html
+1. HTML 기초
 ---
-## css
+## Css
 ---
-## js
+## Js
