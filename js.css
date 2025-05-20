@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* main > div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+button {
+    padding: 5px 10px;
+    margin: 0px 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+
+}
+button:hover {
+    background-color: brown;
+    cursor: pointer;
+}
