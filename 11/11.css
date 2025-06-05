@@ -1,0 +1,136 @@
+#mvMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.poster {
+    width: 150px;
+    height: 200px;
+    border: 1px solid gainsboro;
+    margin: 10px 20px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+
+.divDt,.mvul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.divDt,.divRadio{
+    background-color: aliceblue;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.divRadio {
+    display: flex;
+}
+
+.divRadio > button {
+    width: 100px;
+    margin-left: 20px;
+    background-color: green;
+}
+
+.divRadio > button:hover {
+    background-color: brown;
+}
+
+input[type=radio], label {
+    display: inline-flex;
+    
+}
+
+.mvul{
+    list-style: none;
+    width: 80%;
+}
+
+.mvul > li {
+    display: flex;
+    border: none;
+    margin: 1px;
+    font-size: 12px;
+}
+
+.mvul>li:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+
+.spRank, .sp, .spR, .spB {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.spR {
+    color: red;
+}
+
+.spB {
+    color: blue;
+}
+
+.spRank {
+background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 2px;   
+}
+
+.spMv {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+}
+
+input[type=date] {
+    width: 50%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+
+.spMv:hover{
+    color: brown;
+}
+
+
+.overview {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin-top: 150%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+form{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px dotted gainsboro;
+    padding: 10px;
+}
+
+.mdiv {
+    width: 40%;
+    height: 50px;
+    margin-left: 5%;
+}
+.mdiv > select {
+    width: 80%;
+    height: 40px;
+}
+
+.mdiv > input {
+    width: 60%;
+    height: 30px;
+}
+
+[readonly] {
+    background-color: beige;
+}
+
+h2 {
+    background-color: aliceblue;
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+[for = txt1] {
+    color: brown;
+}
+[for = txt2] {
+    color: blue;
+}
+
